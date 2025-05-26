@@ -1,8 +1,4 @@
-oje, dei um grande passo na minha jornada como desenvolvedor Python! Criei minha primeira API REST usando Flask e a API do TMDb (The Movie Database).
-
-O que eu fiz:
-
-
+Dei um grande passo na minha jornada como desenvolvedor Python! Criei minha primeira API REST usando Flask e a API do TMDb (The Movie Database).
 
 Desenvolvi uma API que busca informações de filmes por título, retornando os dados em formato JSON.
 
