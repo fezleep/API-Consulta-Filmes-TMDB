@@ -1,42 +1,53 @@
-# API-Consulta-Filmes-TMDB
-API Python (Flask) que busca dados de filmes do TMDb (JSON) por título. Ideal para aprender a criar APIs REST e usar APIs externas. Acesse via http://127.0.0.1:5000/movies/search?title=Filme.
+📽️ API-Consulta-Filmes-TMDB
+Olá! Me chamo Felipe e vou te contar passo a passo como desenvolvi essa API. Esse projeto foi muito importante na minha jornada como desenvolvedor Python, pois foi a primeira vez que criei uma API REST usando Flask e consumindo dados de uma API externa — a TMDb (The Movie Database).
 
-Dei um grande passo na minha jornada como desenvolvedor Python! Criei minha primeira API REST usando Flask e a API do TMDb (The Movie Database).
+🚀 O que essa API faz?
+Ela busca informações de filmes pelo título e retorna os dados em formato JSON.
+Exemplo de acesso:
+http://127.0.0.1:5000/movies/search?title=Filme
 
-Desenvolvi uma API que busca informações de filmes por título, retornando os dados em formato JSON.
+📝 Como desenvolvi (passo a passo)
+Configurei o ambiente Python
 
-Utilizei a biblioteca requests para fazer requisições à API do TMDb e obter os dados dos filmes.
+Criei um novo projeto e instalei as bibliotecas necessárias, principalmente o Flask e requests.
 
-Implementei tratamento de erros para lidar com requisições inválidas e garantir a robustez da API.
+Montei a estrutura da API com Flask
 
-Publiquei o código no GitHub! (Link do repositório: [seu link do GitHub aqui])
+Implementei uma rota /movies/search que recebe o título do filme como parâmetro na URL.
 
-O que eu aprendi:
+Fiz a integração com a API do TMDb
 
+Usei a biblioteca requests para fazer uma requisição GET para o TMDb, passando o título do filme e a minha API Key.
 
+Tratei os dados recebidos
 
-Como criar rotas em Flask e definir endpoints para a API.
+Recebi os dados em JSON, filtrei as informações mais importantes (como nome, sinopse e data de lançamento) e organizei para retornar na minha API.
 
-Como usar a biblioteca requests para fazer requisições HTTP e consumir APIs externas.
+Implementei tratamento de erros
 
-Como trabalhar com dados em formato JSON.
+Adicionei verificações para casos de título não encontrado ou erro de requisição, garantindo que a API não quebre.
 
-Como publicar um projeto no GitHub.
+Teste no navegador e no Postman
 
-Foi um desafio incrível e estou muito feliz com o resultado! Agradeço a todos que me apoiaram nessa jornada.
+Testei o funcionamento acessando a URL no navegador e via Postman, conferindo se os dados estavam corretos e organizados.
 
-#python #flask #api #restapi #tmdb #desenvolvimento #programação #github #json"
+Publiquei no GitHub
 
-Dicas adicionais para o post:
+Subi o projeto no meu repositório do GitHub para compartilhar com outros desenvolvedores.
 
+📚 O que eu aprendi:
+Criar rotas e endpoints usando Flask.
 
+Utilizar a biblioteca requests para consumir APIs externas.
 
-Adicione uma imagem ou GIF curto mostrando a API em funcionamento (por exemplo, a resposta JSON no navegador ou Postman).
+Trabalhar com dados em JSON.
 
-Marque pessoas que te inspiraram ou ajudaram nesse projeto.
+Fazer tratamento de erros em APIs.
 
-Incentive as pessoas a darem feedback e a testarem a sua API.
+Publicar projetos no GitHub.
 
-Lembre-se de substituir "[seu link do GitHub aqui]" pelo link real do seu repositório no GitHub.
+📷 Dica!
+Adicionei uma imagem no repositório mostrando a API funcionando no navegador e no Postman. Recomendo fazer o mesmo!
 
-Com esse post, você poderá compartilhar sua conquista com sua rede no LinkedIn e mostrar seu progresso como desenvolvedor.
+📢 Feedback
+Se quiser, clone o projeto, teste e me envie sugestões. Vou adorar saber o que achou!
