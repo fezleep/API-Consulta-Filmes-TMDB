@@ -1,5 +1,5 @@
 📽️ API-Consulta-Filmes-TMDB
-Olá! Me chamo Felipe e vou te contar passo a passo como desenvolvi essa API. Esse projeto foi muito importante na minha jornada como desenvolvedor Python, pois foi a primeira vez que criei uma API REST usando Flask e consumindo dados de uma API externa — a TMDb (The Movie Database).
+Olá! Esse projeto foi muito importante na minha jornada como desenvolvedor Python, pois foi a primeira vez que criei uma API REST usando Flask e consumindo dados de uma API externa — a TMDb (The Movie Database).
 
 🚀 O que essa API faz?
 Ela busca informações de filmes pelo título e retorna os dados em formato JSON.
